@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/cajivanj/public_html/
-    - /bin/cp * $DEPLOYPATH
