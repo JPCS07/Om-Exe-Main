@@ -1,12 +1,12 @@
 import React from 'react';
 import BookMain from './BookMain';
-import acClassic from '../Assets/room/acClassic.JPG';
-import executive from '../Assets/room/executive.JPG';
-import executiveAc from '../Assets/room/executiveAc.JPG';
-import family from '../Assets/room/family.JPG';
-import premium from '../Assets/room/premium.JPG';
-import premiumDelux from '../Assets/room/premiumDelux.JPG';
-import royalAc from '../Assets/room/royalAc.JPG';
+import acClassic from './room/acClassic.JPG';
+import executive from './room/executive.JPG';
+import executiveAc from './room/executiveAc.JPG';
+import family from './room/family.JPG';
+import premium from './room/premium.JPG';
+import premiumDelux from './room/premiumDelux.JPG';
+import royalAc from './room/royalAc.JPG';
 
 const BookNow = () => {
     return (

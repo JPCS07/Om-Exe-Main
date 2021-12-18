@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import omexe from '../../Assets/icons/omexe.png';
+import omexe from '../icons/omexe.png';
 
 
 const Header = () => {
@@ -16,7 +16,6 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header__left'>
-                {/* <img src={logo2} alt="" className="header_logo"/> */}
                 <Link to='/'>
                 <img src={omexe} alt="" className="header_logo"/> 
                 </Link>

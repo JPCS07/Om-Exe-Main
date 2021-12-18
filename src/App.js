@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './Component/Header/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Pages/Home';
-import Tourism from './Pages/Tourism';
-import Gallery from './Pages/Gallery';
-import BookNow from './Pages/BookNow';
+
+import Header from './Component/Header/Header';
 import Footer from './Pages/Footer';
 import Whatsapp from './Component/Whatsapp/Whatsapp';
-import Account from '../src/Component/Account/Account';
-import axios from 'axios';
+import { Helmet } from 'react-helmet';
+import Home from './Component/Home';
+import Tourism from './Component/Tourism/Tourism';
+import Gallery from './Component/Gallery/Gallery';
 import Rooms from './Pages/Rooms';
+import Account from './Component/Account/Account';
 import Resto from './Pages/Resto';
 import Hall from './Pages/Hall';
 import Lawn from './Pages/Lawn';
-import { Helmet } from 'react-helmet';
+
  
 function App() {
    

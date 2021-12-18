@@ -1,11 +1,11 @@
 import React from 'react';
 import BookMain from './BookMain';
-import gallery2 from '../Assets/galleryImg/gallery2.JPG';
+import lawn from './Img/lawn.JPG';
 
 const Lawn = () => {
     return (
         <div>
-            <BookMain image={gallery2} roomName="Lawns" links="/Roomdetail"/>      
+            <BookMain image={lawn} roomName="Lawns" links="/Roomdetail"/>      
         </div>
     )
 }

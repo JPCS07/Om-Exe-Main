@@ -1,6 +1,6 @@
 import React from 'react';
 import './Whatsapp.css';
-import wa from '../../Assets/icons/wa.png';
+import wa from '../icons/wa.png';
 import { Link } from 'react-router-dom';
 
 const Whatsapp = () => {

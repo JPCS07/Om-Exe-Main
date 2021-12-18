@@ -1,11 +1,11 @@
 import React from 'react';
 import './Caro.css';
 import Carousel from "react-bootstrap/Carousel";
-import caro1 from '../../Assets/images/caro1.JPG';
-import caro2 from '../../Assets/images/caro2.JPG';
-import caro3 from '../../Assets/images/caro3.JPG';
-import caro4 from '../../Assets/images/caro4.JPG';
-import caro5 from '../../Assets/images/caro5.JPG';
+import caro1 from './images/caro1.JPG';
+import caro2 from './images/caro2.JPG';
+import caro3 from './images/caro3.JPG';
+import caro4 from './images/caro4.JPG';
+import caro5 from './images/caro5.JPG';
 
 const Caro = () => {
     return (

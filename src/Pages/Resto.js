@@ -1,12 +1,12 @@
 import React from 'react';
 import BookMain from './BookMain';
-import caro4 from '../Assets/images/caro4.JPG';
+import resto from './Img/resto.JPG';
 
 
 const Resto = () => {
     return (
         <div>
-            <BookMain image={caro4} roomName="Restaurant" links="/Roomdetail"/>
+            <BookMain image={resto} roomName="Restaurant" links="/Roomdetail"/>
         </div>
     )
 }

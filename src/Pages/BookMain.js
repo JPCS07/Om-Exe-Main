@@ -25,10 +25,8 @@ const BookMain = (props) => {
                         <h3 className="facilities">Most Popular Facilities :</h3>
                         <ul className="feature">
                             <li><Link><i class="fas fa-parking"></i>Free Parking</Link></li>
-                            {/* <li><Link><i class="fas fa-users"></i>Family Rooms</Link></li> */}
                             <li><Link><i class="fas fa-wifi"></i>Free Wifi</Link></li>
                             <li><Link><i class="fas fa-utensils"></i>Restaurant</Link></li>
-                            {/* <li><Link><i class="fas fa-spa"></i>Spa & Wellnees Centre</Link></li> */}
                             <li><Link><i class="fas fa-concierge-bell"></i>Room Service</Link></li>
                             <li><Link><i class="fas fa-sink"></i>Clean Bathroom</Link></li>
                             <li><Link><i class="fab fa-envira"></i>Silent and meditation atmosphere</Link></li>
